@@ -1,0 +1,138 @@
+:root {
+  --spacing-unit: 1.5rem;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 25px auto;
+  padding: var(--spacing-unit);
+  text-align: center;
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee, #fbc2eb);
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: calc(var(--spacing-unit) * 2);
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: var(--spacing-unit);
+  margin-bottom: var(--spacing-unit);
+}
+
+legend {
+  font-weight: bold;
+  /* color:rgb(98, 0, 218); */
+  color:rgb(215, 0, 4);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus {
+  /* border-color: rgb(10, 117, 249); */
+  border-color: rgb(255, 89, 0);
+  outline: none;
+}
+
+input.error, select.error {
+  border-color: #ff0000;
+}
+
+button {
+  padding: 10px 12px;
+  background-color:rgb(0, 87, 227);
+  color: #fff;
+  border: 2px double rgb(252, 105, 245);
+  border-radius: 10px;
+  marginBottom: 10px;
+  /* height: auto;
+  width: auto; */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color:rgb(8, 135, 38);
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  #root {
+    padding: 1rem;
+  }
+
+  .card {
+    padding: 1rem;
+  }
+
+  fieldset {
+    padding: 1rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}
