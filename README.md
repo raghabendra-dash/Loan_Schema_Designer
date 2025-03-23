@@ -1,10 +1,10 @@
-# Loan Application JSON Schema Designer
+## Loan Application JSON Schema Designer
 
   The loan application form is powered by MERN Stack that defines **JSON Schema** for workflow using **React JSON Schema Form (RJSF)** with the **AJV8 validator**. The schema is designed to enable users to apply for a loan by filling out structured forms with validation and conditional logic.
 
-## Deployment
+### Deployment
    > Live Link: https://loan-schema-designer-app.vercel.app/
-## Features
+### Features
 
 - **Business Details**:
 
@@ -28,7 +28,7 @@
   - PAN format validation
   - Conditional logic for guarantors
 
-## Technologies Used
+### Technologies Used
 
 - **Frontend**:
 
@@ -40,7 +40,7 @@
   - Express
   - CORS (for cross-origin requests)
 
-## User Experience (UX) Considerations
+### User Experience (UX) Considerations
 
   - **Multi-Screen Form**:
 
@@ -59,7 +59,7 @@
     Fields are grouped under relevant titles (e.g., Directors, Guarantors) for better organization and navigation.
 
 
-## Setup Instructions
+### Setup Instructions
 
  - Clone the Repository:
    
@@ -108,7 +108,7 @@
           and 
       npm run preview
 
-## License
+### License
 
    This project is licensed under the MIT License.
 
