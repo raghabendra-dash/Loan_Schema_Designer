@@ -1,4 +1,4 @@
-# Loan Application Workflow JSON Schema Designer
+# Loan Application JSON Schema Designer
 
   The loan application form is powered by MERN Stack that defines **JSON Schema** for workflow using **React JSON Schema Form (RJSF)** with the **AJV8 validator**. The schema is designed to enable users to apply for a loan by filling out structured forms with validation and conditional logic.
 
