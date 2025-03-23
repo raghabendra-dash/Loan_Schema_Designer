@@ -75,7 +75,7 @@ const App = () => {
 
     // Submit form data to backend
     try {
-      const response = await fetch("http://localhost:5000/api/submit", {
+      const response = await fetch("https://loan-schema-designer-backend.onrender.com/api/submit", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
