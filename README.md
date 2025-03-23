@@ -1,7 +1,9 @@
 # Loan Application Workflow JSON Schema Designer
 
-The loan application form is powered by MERN Stack that defines **JSON Schema** for workflow using **React JSON Schema Form (RJSF)** with the **AJV8 validator**. The schema is designed to enable users to apply for a loan by filling out structured forms with validation and conditional logic.
+  The loan application form is powered by MERN Stack that defines **JSON Schema** for workflow using **React JSON Schema Form (RJSF)** with the **AJV8 validator**. The schema is designed to enable users to apply for a loan by filling out structured forms with validation and conditional logic.
 
+## Deployment
+   > Live Link: 
 ## Features
 
 - **Business Details**:
@@ -45,6 +47,7 @@ The loan application form is powered by MERN Stack that defines **JSON Schema** 
     The form is divided into multiple screens for better usability:
 
     a. Screen 1: Business Details.
+    
     b. Screen 2: Loan Details(with conditional fields based on the credit score).
 
   - **Wizard Navigation**:
@@ -58,59 +61,55 @@ The loan application form is powered by MERN Stack that defines **JSON Schema** 
 
 ## Setup Instructions
 
-1. Clone the Repository:
+ - Clone the Repository:
+   
+  ```bash
+    git clone 
+    cd loan-app-form
 
- ```bash
-  git clone 
-  cd loan-app-form
+ **Install Dependencies**:
 
-2. Install Dependencies:
+   - **Frontend**
 
-- **Frontend**
+      ```bash
+       npm install or npm install --force
 
-```bash
- npm install or npm install --force
+   - **Backend**
 
-
-- **Backend**
-
- ```bash
-  cd backend 
-  npm install or npm install --force
-
-
-3. Run the Application:
-
-- **Development Mode**
-
- a. Start the backend server:
-
-   ```bash 
-    npm run dev 
-
- b. Start the Frontend app:
-
-   ```bash
-    npm run dev
-
-- **Production Mode**
-
- a. Start the backend server:
-
-   ```bash 
-    cd backend
-    npm start
-
- b. Start the frontend app:
-
-   ```bash
-    npm run build 
-        and 
-    npm run preview
+      ```bash
+        cd backend 
+       npm install or npm install --force
 
 
-**## Licence**
+  - Run the Application:(**Development Mode**)
 
-  This project is licensed under the MIT License.
+    a. Start the backend server:
+
+      ```bash 
+       npm run dev 
+
+    b. Start the Frontend app:
+
+      ```bash
+       npm run dev
+
+ - Run the Application:(**Production Mode**)
+
+   a. Start the backend server:
+
+     ```bash 
+      cd backend
+      npm start
+
+   b. Start the frontend app:
+
+     ```bash
+      npm run build 
+          and 
+      npm run preview
+
+## License
+
+   This project is licensed under the MIT License.
 
 
